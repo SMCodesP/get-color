@@ -1,6 +1,20 @@
 {
-  "name": "getColor",
+  "name": "get-color",
   "version": "1.0.0",
+  "description": "Pacote útil para gerar código HEXADECIMAL para cores",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMCodesP/get-color.git"
+  },
+  "keywords": ["brasil", "get", "color", "request", "generate", "hex", "hexadecimal"],
+  "author": "SMCodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMCodesP/get-color/issues"
+  },
+  "homepage": "https://github.com/SMCodesP/get-color#readme"
 }
