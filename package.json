@@ -1,6 +1,6 @@
 {
   "name": "get-color-sm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pacote útil para gerar código HEXADECIMAL para cores",
   "main": "index.js",
   "scripts": {
