@@ -9,4 +9,14 @@ function getColor() {
 	return color;
 }
 
-module.exports = getColor;
+function getColorList(n = 1) {
+	if(isNaN(n) || n < 1) return { error: 'Porfavor digite algum valor numérico e maior ou igual a 1.' };
+	let listColors = [];
+	for(let counter = 0;counter <= n;counter++) {
+		listColors.push(getColor());
+	}
+
+	return listColors;
+}
+
+module.exports = { getColor, getColorList };
